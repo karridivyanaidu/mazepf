@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Karri Divya Naidu — AI & CS Engineer</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-logo">KDN<span class="blink">_</span></div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact" class="nav-cta">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-grid-bg"></div>
+    <div class="hero-content">
+      <div class="hero-tag reveal">BTech · CS & AI · Plaksha University</div>
+      <h1 class="hero-name reveal delay-1">
+        Karri<br /><span class="accent">Divya</span><br />Naidu
+      </h1>
+      <p class="hero-tagline reveal delay-2">
+        Building intelligent systems at the intersection of<br />
+        <span class="typed-wrapper"><span id="typed"></span><span class="cursor-type">|</span></span>
+      </p>
+      <div class="hero-actions reveal delay-3">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+        <a href="mailto:karridivyanaidu@gmail.com" class="btn btn-outline">karridivyanaidu@gmail.com</a>
+      </div>
+    </div>
+    <div class="hero-stat-strip reveal delay-3">
+      <div class="stat"><span class="stat-num">8.16</span><span class="stat-label">CGPA</span></div>
+      <div class="stat-div"></div>
+      <div class="stat"><span class="stat-num">7+</span><span class="stat-label">Projects</span></div>
+      <div class="stat-div"></div>
+      <div class="stat"><span class="stat-num">95.8%</span><span class="stat-label">Class XII</span></div>
+      <div class="stat-div"></div>
+      <div class="stat"><span class="stat-num">2028</span><span class="stat-label">Graduating</span></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <div class="section-label">// 01 — About Me</div>
+      <div class="about-grid">
+        <div class="about-text">
+          <h2 class="section-heading reveal">Curious mind.<br />Rigorous builder.</h2>
+          <p class="about-para reveal">
+            I'm a second year Computer Science student at Plaksha University,
+            with a strong interest in Artificial Intelligence, Machine Learning, Robotics, and frontend development.
+            I enjoy using technology to solve real world problems and create meaningful impact.
+            I thrive at the intersection of research and engineering—whether that's designing novel optimization algorithms,
+            building multimodal AI systems, or shipping responsive web applications.
+          </p>
+          <p class="about-para reveal">
+            My work spans applied ML research, autonomous systems, and healthcare AI. I'm driven by problems
+            that demand both technical rigour and creative thinking—especially those where code can create
+            real-world impact.
+          </p>
+          <div class="about-chips reveal">
+            <span class="chip">Machine Learning</span>
+            <span class="chip">AI</span>
+            <span class="chip">Robotics</span>
+            <span class="chip">Frontend Dev</span>
+            <span class="chip">Data Science</span>
+            <span class="chip">Prompting</span>
+          </div>
+        </div>
+        <div class="about-card reveal">
+          <div class="about-card-inner">
+            <div class="about-avatar">KDN</div>
+            <div class="about-info-list">
+              <div class="about-info-row">
+                <span class="info-label">University</span>
+                <span class="info-val">Plaksha, Mohali</span>
+              </div>
+              <div class="about-info-row">
+                <span class="info-label">Degree (Major)</span>
+                <span class="info-val">BTech · CS & AI</span>
+              </div>
+              <div class="about-info-row">
+                <span class="info-label">Degree (Minor)</span>
+                <span class="info-val">BTech · Economics</span>
+              </div>
+              <div class="about-info-row">
+                <span class="info-label">CGPA</span>
+                <span class="info-val accent-text">8.16 / 10</span>
+              </div>
+              <div class="about-info-row">
+                <span class="info-label">Graduating</span>
+                <span class="info-val">2028</span>
+              </div>
+              <div class="about-info-row">
+                <span class="info-label">LinkedIn</span>
+                <a class="info-val info-link" href="https://linkedin.com/in/karridivyanaidu" target="_blank">karridivyanaidu</a>
+              </div>
+              <div class="about-info-row">
+                <span class="info-label">GitHub</span>
+                <a class="info-val info-link" href="https://github.com/karridivyanaidu" target="_blank">karridivyanaidu</a>
+              </div>
+            </div>
+            <!--
+            <div class="achievement-badge">
+              <span class="badge-icon">★</span>
+              Smart India Hackathon 2025 — Shortlisted
+            </div>
+            -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-label">// 02 — Skills</div>
+      <h2 class="section-heading reveal">My Tech Stack</h2>
+
+      <div class="skills-categories reveal">
+
+        <div class="skill-cat">
+          <div class="skill-cat-title">Languages</div>
+          <div class="skill-pills">
+            <span class="pill pill-lang">Python</span>
+            <span class="pill pill-lang">C / C++</span>
+            <span class="pill pill-lang">JavaScript</span>
+            <span class="pill pill-lang">HTML & CSS</span>
+            <span class="pill pill-lang">Node.js</span>
+          </div>
+        </div>
+
+        <div class="skill-cat">
+          <div class="skill-cat-title">Frameworks & Libraries</div>
+          <div class="skill-pills">
+            <span class="pill pill-fw">React.js</span>
+            <span class="pill pill-fw">Streamlit</span>
+            <span class="pill pill-fw">scikit-learn</span>
+            <span class="pill pill-fw">NumPy / Pandas</span>
+          </div>
+        </div>
+
+        <div class="skill-cat">
+          <div class="skill-cat-title">AI / ML</div>
+          <div class="skill-pills">
+            <span class="pill pill-ai">Machine Learning</span>
+            <span class="pill pill-ai">Deep Learning</span>
+            <span class="pill pill-ai">Computer Vision</span>
+            <span class="pill pill-ai">NLP</span>
+            <span class="pill pill-ai">Causal Inference</span>
+            <span class="pill pill-ai">Optimization</span>
+          </div>
+        </div>
+
+        <div class="skill-cat">
+          <div class="skill-cat-title">Tools & Platforms</div>
+          <div class="skill-pills">
+            <span class="pill pill-tool">Git / GitHub</span>
+            <span class="pill pill-tool">VS Code</span>
+            <span class="pill pill-tool">Arduino IDE</span>
+            <span class="pill pill-tool">Raspberry Pi</span>
+            <span class="pill pill-tool">Render</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-label">// 03 — Projects</div>
+      <h2 class="section-heading reveal">My Work</h2>
+
+      <div class="projects-grid">
+
+        <div class="proj-card featured reveal">
+          <div class="proj-header">
+            <span class="proj-tag research">Research · Ongoing</span>
+            <div class="proj-links">
+              <a href="https://github.com/karridivyanaidu" target="_blank" class="proj-link" title="GitHub">↗</a>
+            </div>
+          </div>
+          <h3 class="proj-title">Longitudinal Glioma Evolution Modeling</h3>
+          <p class="proj-desc">
+            Developing an ML framework to model brain tumor progression via longitudinal MRI scans.
+            The system performs sub-region segmentation, quantifies volumetric changes over follow-up scans,
+            and generates patient-specific risk trajectories to guide post-operative treatment planning.
+          </p>
+          <div class="proj-stack">
+            <span>Python</span><span>ML</span><span>DL</span><span>LSTM</span><span>PyTorch</span><span>MRI Imaging</span><span>Segmentation</span>
+          </div>
+        </div>
+
+        <div class="proj-card reveal delay-1">
+          <div class="proj-header">
+            <span class="proj-tag research">Research · Ongoing</span>
+            <div class="proj-links">
+              <a href="https://github.com/karridivyanaidu" target="_blank" class="proj-link">↗</a>
+            </div>
+          </div>
+          <h3 class="proj-title">Multimodal AI for Environmental Health</h3>
+          <p class="proj-desc">
+            Building a multimodal dataset integrating pollution metrics, agricultural practices, and
+            public health indicators across India's cancer belt. Applies causal inference to surface
+            policy-relevant insights linking environmental factors to health outcomes.
+          </p>
+          <div class="proj-stack">
+            <span>Python</span><span>Causal Inference</span><span>ML</span><span>Multimodality</span>
+          </div>
+        </div>
+
+        <div class="proj-card reveal delay-2">
+          <div class="proj-header">
+            <span class="proj-tag algo">Algorithm Design</span>
+            <div class="proj-links">
+              <a href="https://github.com/karridivyanaidu/Curvature-Adaptive-RMS-Momentum-Acceleration-Optimiser" target="_blank" class="proj-link">↗</a>
+            </div>
+          </div>
+          <h3 class="proj-title">Curvature Adaptive RMS Momentum Optimizer</h3>
+          <p class="proj-desc">
+            Designed a hybrid optimizer combining Nesterov's accelerated gradient, curvature-adaptive
+            momentum, and RMS scaling. Achieved faster convergence than Adam and SGD on benchmark
+            functions, and reached 97% accuracy on MNIST with improved training stability.
+          </p>
+          <div class="proj-stack">
+            <span>Python</span><span>Optimization</span><span>NumPy</span>
+          </div>
+        </div>
+
+        <div class="proj-card reveal delay-3">
+          <div class="proj-header">
+            <span class="proj-tag app">Deployed Website</span>
+            <div class="proj-links">
+              <a href="https://github.com/karridivyanaidu/movie-recommendation-system" target="_blank" class="proj-link">↗</a>
+            </div>
+          </div>
+          <h3 class="proj-title">Movie Recommendation System</h3>
+          <p class="proj-desc">
+            Content-based recommendation engine using cosine similarity and TF-IDF vectorization via
+            scikit-learn. Deployed as an interactive Streamlit app on Render with real-time recommendations,
+            external API integration, and automated poster generation.
+          </p>
+          <div class="proj-stack">
+            <span>Python</span><span>ML</span><span>scikit-learn</span><span>Streamlit</span><span>Render</span>
+          </div>
+        </div>
+
+    
+
+        <div class="proj-card reveal">
+          <div class="proj-header">
+            <span class="proj-tag robotics">Robotics</span>
+            <div class="proj-links">
+              <a href="https://github.com/karridivyanaidu/Autonomous-Car-Robot" target="_blank" class="proj-link">↗</a>
+            </div>
+          </div>
+          <h3 class="proj-title">Autonomous Obstacle-Navigating Robot</h3>
+          <p class="proj-desc">
+            Built an autonomous robotic chassis using Raspberry Pi Pico with sensor-based obstacle detection
+            in C via Arduino IDE. Integrated motor encoders for precise movement, implemented real-time path
+            planning, and achieved 2nd place in a university robotics competition.
+          </p>
+          <div class="proj-stack">
+            <span>C</span><span>Raspberry Pi</span><span>Arduino IDE</span><span>Sensors</span>
+          </div>
+        </div>
+
+        <div class="proj-card reveal delay-1">
+          <div class="proj-header">
+            <span class="proj-tag app">Web App</span>
+            <div class="proj-links">
+              <a href="https://github.com/karridivyanaidu/flutter" target="_blank" class="proj-link">↗</a>
+            </div>
+          </div>
+          <h3 class="proj-title">Flutter Diary — Journaling Web App</h3>
+          <p class="proj-desc">
+            Designed and built a responsive, full-screen journaling application from scratch. Features a
+            purple-white theme with dynamic entry layout, a polished landing page, login flow, and modular
+            UI components following modern web design patterns.
+          </p>
+          <div class="proj-stack">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>UI/UX Design</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION & EXPERIENCE -->
+  <section id="education">
+    <div class="container">
+      <div class="section-label">// 04 — Education & Experience</div>
+      <h2 class="section-heading reveal">Background</h2>
+
+      <div class="timeline-grid">
+        <div class="timeline-col">
+          <h3 class="timeline-col-title">Education</h3>
+
+          <div class="timeline-item reveal">
+            <div class="tl-dot"></div>
+            <div class="tl-content">
+              <div class="tl-date">2024 – Present</div>
+              <div class="tl-title">BTech · Computer Science & Artificial Intelligence</div>
+              <div class="tl-org">Plaksha University, Mohali</div>
+              <div class="tl-detail">CGPA: <strong>8.16</strong></div>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="tl-dot"></div>
+            <div class="tl-content">
+              <div class="tl-date">2024</div>
+              <div class="tl-title">Class XII — Board of Intermediate Education (AP)</div>
+              <div class="tl-org">FIITJEE, Visakhapatnam</div>
+              <div class="tl-detail">Score: <strong>95.8%</strong></div>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="tl-dot"></div>
+            <div class="tl-content">
+              <div class="tl-date">2022</div>
+              <div class="tl-title">Class X — CBSE</div>
+              <div class="tl-org">Sri Prakash Vidyaniketan, Visakhapatnam</div>
+              <div class="tl-detail">Score: <strong>95.4%</strong></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-col">
+          <h3 class="timeline-col-title">Roles & Responsibilities</h3>
+
+          <div class="timeline-item reveal">
+            <div class="tl-dot tl-dot-alt"></div>
+            <div class="tl-content">
+              <div class="tl-date">Mar 2026 –  Present</div>
+              <div class="tl-title">Teaching Fellow</div>
+              <div class="tl-org">Young Technology Scholars Program</div>
+              <div class="tl-detail">Mentored students in technology and innovation, designed STEM learning activities.</div>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="tl-dot tl-dot-alt"></div>
+            <div class="tl-content">
+              <div class="tl-date">Nov 2022 – Present</div>
+              <div class="tl-title">Design & Socials </div>
+              <div class="tl-org">MUN & Debate Club</div>
+              <div class="tl-detail">Crafting visual identity, posters, and Instagram creatives for MUN events.</div>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="tl-dot tl-dot-alt"></div>
+            <div class="tl-content">
+              <div class="tl-date">Jan 2026 – Feb 2026</div>
+              <div class="tl-title">Organising Committee</div>
+              <div class="tl-org">Young Creators League</div>
+              <div class="tl-detail">Coordinated large-scale event logistics and led cross-team communication.</div>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="tl-dot tl-dot-alt"></div>
+            <div class="tl-content">
+              <div class="tl-date">Jul 2025 - Nov 2025</div>
+              <div class="tl-title">Content Writer</div>
+              <div class="tl-org">Pehchaan — The Street School</div>
+              <div class="tl-detail">Supporting awareness campaigns for inclusive education initiatives.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-label">// 05 — Contact</div>
+      <div class="contact-wrapper reveal">
+        <h2 class="contact-heading">Let's build something<br /><span class="accent">together.</span></h2>
+        <p class="contact-sub">
+          Open to collaborate projects, internships, remote and part-time roles.
+          I'd love to hear from you.
+        </p>
+        <div class="contact-links-row">
+          <a href="mailto:karridivyanaidu@gmail.com" class="contact-link-card">
+            <span class="clc-icon">✉</span>
+            <span class="clc-label">Email</span>
+            <span class="clc-val">karridivyanaidu@gmail.com</span>
+          </a>
+          <a href="https://linkedin.com/in/karridivyanaidu" target="_blank" class="contact-link-card">
+            <span class="clc-icon">in</span>
+            <span class="clc-label">LinkedIn</span>
+            <span class="clc-val">karridivyanaidu</span>
+          </a>
+          <a href="https://github.com/karridivyanaidu" target="_blank" class="contact-link-card">
+            <span class="clc-icon">⌥</span>
+            <span class="clc-label">GitHub</span>
+            <span class="clc-val">karridivyanaidu</span>
+          </a>
+          <a href="tel:+916303512143" class="contact-link-card">
+            <span class="clc-icon">☎</span>
+            <span class="clc-label">Phone</span>
+            <span class="clc-val">+91 63035 12143</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-logo">KDN<span class="blink">_</span></div>
+      <div class="footer-copy">
+        Designed & built with intention · Karri Divya Naidu
+      </div>
+      <div class="footer-links">
+        <a href="https://linkedin.com/in/karridivyanaidu" target="_blank">LinkedIn</a>
+        <a href="https://github.com/karridivyanaidu" target="_blank">GitHub</a>
+        <a href="mailto:karridivyanaidu@gmail.com">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
